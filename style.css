@@ -125,7 +125,7 @@
 
 .path::before {
     content: "";
-    background-image: url('logo/rw-pattern4.webp');
+    background-image: url('Logo/rw-pattern4.webp');
     background-color: rgb(255, 255, 255);
     position: absolute;
     top: 0px;
@@ -187,19 +187,19 @@ p{
 }
 
 .card-background-1 {
-    background-image: url("logo/rc37v1-overlay-texture-1.webp");
+    background-image: url("Logo/rc37v1-overlay-texture-1.webp");
 }
 
 .card-background-2 {
-    background-image: url("logo/rc37v1-overlay-texture-2.webp");
+    background-image: url("Logo/rc37v1-overlay-texture-2.webp");
 }
 
 .card-background-3 {
-    background-image: url("logo/rc37v1-overlay-texture-3.webp");
+    background-image: url("Logo/rc37v1-overlay-texture-3.webp");
 }
 
 .card-background-4 {
-    background-image: url("logo/rc37v1-overlay-texture-4.webp");
+    background-image: url("Logo/rc37v1-overlay-texture-4.webp");
 }
 
 .card-style {
@@ -207,12 +207,14 @@ p{
     border-radius: 15px;;
 }
 
-.card:hover{
+.card-style:hover {
     transform: scale(1.05);
+}
+
+.card:hover{
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
     background-color: #83817b;
     color: azure;
-
 }
 
 .card:hover .info {
