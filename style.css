@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Source+Code+Pro&family=Ubuntu&display=swap');
+
+
+
+.logo {
+    height: 50px;
+    color: aliceblue;
+    padding-top: 10px;
+    padding-left: 6%;
+    padding-bottom: 10px;
+}
+
+.nav-font-style {
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: rgb(161, 100, 24);
+    color: aliceblue;
+}
+
+.container-fluid-position {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.nav-item-1{
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.navbar .container-allign {
+    padding: 0.2% 7%;
+}
+
+.icone-size-gt {
+    padding-left: 10px;
+    height: 20px;
+    color: white;
+}
+
+.icone-size {
+    height: 30px;
+    color: white;
+}
+
+.banner {
+    height: 500px;
+    background-color: rgb(235, 252, 252);
+    background-image: url();
+}
+
+.banner-left {
+    padding-top: 20px;
+    padding-left: 10%;
+}
+
+.banner-right {
+    height: 500px;
+}
+
+.banner-font-location{
+    padding-left: 8%;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.banner-font-header {
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color:rgb(230, 230, 230);
+}
+.para{
+    padding-left: 10%;
+    max-width: 50%;
+    padding-top: 25px;
+}
+
+.banner-font-para {
+    font-family: 'Albert Sans', sans-serif;
+    font-weight:500;
+    font-size: 1.2rem;
+    color:rgb(230, 230, 230);
+}
+
+.btn-outline-primary {
+    color: darkblue;
+    border-color: rgb(230, 230, 230) !important;
+}
+
+.wrapper{
+    display: inline-block;
+    position:relative;
+}
+
+.big-img{
+    border: none;
+    width: 100%;
+    max-width: 100%;
+}
+
+.small-img{
+    position:absolute;
+    right: 10%;
+    width: 25%;
+    max-width:25%;
+}
+
+
+
+.path {
+    padding-top: 70px;
+    padding-left: 11%;
+    padding-right: 10%;
+    height: 70vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.path::before {
+    content: "";
+    background-image: url('logo/rw-pattern4.webp');
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.08;
+}
+
+.path-font-para {
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color:rgb(4, 69, 112);
+    padding-bottom: 20px;
+}
+
+.line{
+    padding-bottom: 5px;
+    margin-right: 96%;
+    margin-bottom: 28px;
+    background-color: rgb(170, 36, 36);
+}
+
+
+.option {
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.card-para {
+    padding-left: 8px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.card-title-font{
+    font-family: 'Albert Sans', sans-serif;
+    color: rgb(8, 116, 116);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Albert Sans', sans-serif;
+    color: rgb(4, 69, 112);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.logo-position {
+    padding-left: 8px;
+}
+
+.btn-position {
+    padding-bottom: 22px;
+    padding-left: 22px;
+}
+
+.card-background-1 {
+    background-image: url("logo/rc37v1-overlay-texture-1.webp");
+}
+
+.card-background-2 {
+    background-image: url("logo/rc37v1-overlay-texture-2.webp");
+}
+
+.card-background-3 {
+    background-image: url("logo/rc37v1-overlay-texture-3.webp");
+}
+
+.card-background-4 {
+    background-image: url("logo/rc37v1-overlay-texture-4.webp");
+}
+
+.card-style {
+    min-height: 350px;
+    border-radius: 15px;;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    background-color: #83817b;
+    color: azure;
+
+}
+
+.card:hover .info {
+    color: rgb(252, 252, 252);
+}
+
+.icone-color {
+    color: #b7c9cf;
+}
