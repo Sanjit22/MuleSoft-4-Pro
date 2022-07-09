@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Source+Code+Pro&family=Ubuntu&display=swap');
 
 
-
 .logo {
     height: 50px;
     color: aliceblue;
@@ -125,8 +124,8 @@
 
 .path::before {
     content: "";
-    background-image: url('Logo/rw-pattern4.webp');
-    background-color: rgb(255, 255, 255);
+    background-image: url('Logo/rw-pattern8w.webp');
+    background-color: rgb(150, 21, 21);
     position: absolute;
     top: 0px;
     right: 0px;
@@ -147,7 +146,7 @@
     padding-bottom: 5px;
     margin-right: 96%;
     margin-bottom: 28px;
-    background-color: rgb(170, 36, 36);
+    background-color: rgb(214, 175, 175);
 }
 
 
@@ -202,18 +201,13 @@ p{
     background-image: url("Logo/rc37v1-overlay-texture-4.webp");
 }
 
-.card-style {
-    min-height: 350px;
-    border-radius: 15px;;
-}
-
 .card-style:hover {
     transform: scale(1.05);
 }
 
 .card:hover{
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-    background-color: #83817b;
+    background-color: #97958c !important;
     color: azure;
 }
 
@@ -221,6 +215,10 @@ p{
     color: rgb(252, 252, 252);
 }
 
-.icone-color {
-    color: #b7c9cf;
+.h-90 {
+    height: 90% !important;
+}
+
+.bg-info-1 {
+    background-color: #c0d3d8 !important;
 }
